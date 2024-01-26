@@ -23,6 +23,10 @@ app.get('/nikal', (req, res) => {
   res.send('<h2>Bhai ja yaar</h2>')
 })
 
+app.get('/aaja', (req, res) => {
+  res.send('<h2>Bhai aja yaar</h2>')
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
